@@ -1,0 +1,8 @@
+"0","dat.words <-
+    read_sheet(""https://docs.google.com/spreadsheets/d/e/2PACX-1vTxGsugPOVT3A5339ZiHK46q6FATBU1gRQlwyUp5Z3R17iK5zFgCV09Cm5JtvA0HgyH7CIjrCPEFngm/pub?gid=0&single=true&output=csv"")
+"
+"2","Error: Client error: (404) NOT_FOUND
+  * A specified resource is not found, or the request is rejected by undisclosed reasons, such as whitelisting.
+  * Requested entity was not found.
+[90mRun `rlang::last_error()` to see where the error occurred.[39m
+"
