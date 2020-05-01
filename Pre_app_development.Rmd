@@ -1,11 +1,8 @@
 ---
-title: "R Notebook"
+title: "testing"
 output: html_notebook
 ---
-
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
-
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+ 
 
 ```{r}
 #------------------
@@ -14,24 +11,19 @@ Try executing this chunk by clicking the *Run* button within the chunk or by pla
 #update.packages ()
 #install.packages("devtools") #
   
-install.packages("fs", type = "source") # because binary is older, and too old for gargle, which is a dependency of googlesheets4
-require(mosaic)
+#install.packages("fs", type = "source") # because binary is older, and too old for gargle, which is a dependency of googlesheets4
+#require(mosaic)
 install.packages("googlesheets4")
 library(googlesheets4)
 
 #------------------
 # Load words
 #------------------ 
- 
- 
-dat.words <-
+
+test.words <-
     read_sheet("https://docs.google.com/spreadsheets/d/e/2PACX-1vTxGsugPOVT3A5339ZiHK46q6FATBU1gRQlwyUp5Z3R17iK5zFgCV09Cm5JtvA0HgyH7CIjrCPEFngm/pub?gid=0&single=true&output=csv")
 
 dat.words<- fetchdata("https://drive.google.com/uc?export=download&id=e")
-```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+ 
+ 
